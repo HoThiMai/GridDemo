@@ -16,12 +16,12 @@
 	.content1{
 		background:yellow; 
 		grid-area: content;
-		}
+	}
 
 	.footer{
 		background: pink;
 		grid-area: footer
-}
+	}
 	.grid-container {
 		text-align: center;
  	 	display: grid;
@@ -30,4 +30,4 @@
  	 	'mainbar mainbar mainbar'
  	 	'menu content content'
  	 	'footer footer footer'
-		}
+	}
