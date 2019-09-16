@@ -1,28 +1,28 @@
-	.header{
-		background:red; 
-		grid-area: header;
-	}
+.header{
+	background:red; 
+	grid-area: header;
+}
 
-	.mainbar{
-		background:orange; 
-		grid-area: mainbar;
-	}
+.mainbar{
+	background:orange; 
+	grid-area: mainbar;
+}
 
-	.menu{
-		background:green; 
-		grid-area: menu
-	}
+.menu{
+	background:green; 
+	grid-area: menu
+}
 
-	.content1{
-		background:yellow; 
-		grid-area: content;
-	}
+.content1{
+	background:yellow; 
+	grid-area: content;
+}
 
-	.footer{
-		background: pink;
-		grid-area: footer
-	}
-	.grid-container {
+.footer{
+	background: pink;
+	grid-area: footer
+}
+.grid-container {
 		text-align: center;
  	 	display: grid;
  	 	grid-template-areas:
@@ -30,4 +30,4 @@
  	 	'mainbar mainbar mainbar'
  	 	'menu content content'
  	 	'footer footer footer'
-	}
+}
